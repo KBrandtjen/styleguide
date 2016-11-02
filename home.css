@@ -1,0 +1,77 @@
+body {
+  max-width: 960px;
+}
+
+.inner {
+  text-align: center;
+}
+
+.inner h1 {
+  color: red;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.inner li {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+.colors li {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+.colors img {
+  border-radius: 50%;
+}
+
+.colors p {
+  text-align: center;
+}
+
+
+.typography {
+  /*float: left;*/
+  outline: dotted 5px blue;
+
+}
+
+.typography h4 {
+
+}
+
+.typography ul {
+  list-style-type: none;
+}
+
+.type_right p {
+  display: inline-block;
+  font: red;
+}
+
+.type_right h2 {
+  display: inline-grid;
+  line-height: 1px;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+.type_right {
+  float: left;
+  width: calc(50% - 30px);
+  line-height: 1px;
+  height: 400px;
+  outline: dotted 5px orange;
+}
+
+.type_left {
+  float: left;
+  width: 50%;
+  height: 400px;
+  outline: dotted 5px red;
+}
+
+button {
+  display: block;
+}
